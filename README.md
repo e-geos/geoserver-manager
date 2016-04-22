@@ -5,7 +5,7 @@
  * Master on Windows + OracleJDK7 [![Build Status](http://winbuild.geo-solutions.it/jenkins/buildStatus/icon?job=GeoServer-Manager-Master)](http://winbuild.geo-solutions.it/jenkins/view/GeoServer-Manager/job/GeoServer-Manager-Master/)
  * Stable on Linux + OracleJDK7 [![Build Status](http://build.geo-solutions.it/jenkins/view/GeoServer-manager/job/GeoServer-Manager-Stable/badge/icon)](http://build.geo-solutions.it/jenkins/view/GeoServer-manager/job/GeoServer-Manager-Stable/)
  * Stable on Windows + OracleJDK7 [![Build Status](http://winbuild.geo-solutions.it/jenkins/buildStatus/icon?job=GeoServer-Manager-Stable)](http://winbuild.geo-solutions.it/jenkins/view/GeoServer-Manager/job/GeoServer-Manager-Stable/)
- * Coveralls [![Coverage Status](https://coveralls.io/repos/github/geosolutions-it/geoserver-manager/badge.svg?branch=master)](https://coveralls.io/github/geosolutions-it/geoserver-manager?branch=master)
+
 
 
 ## Intro
@@ -36,8 +36,17 @@ and the dependency tag for your pom is as follows:
     <version>1.7.0</version>
   </dependency>
 ```
+### Direct Link to JAR
+If you are simply looking for the JAR to download and use you can find it [here](http://maven.geo-solutions.it/it/geosolutions/geoserver-manager/1.7.0/geoserver-manager-1.7.0.jar).
 
-## Documentation 
+### GeoServer Compatibility Matrix
+
+ **GeoServer-Manager/GeoServer** | **2.6.x** |**2.7.x** |**2.8.x** |**2.9.x** 
+-------------------------------- | ----------|----------|----------|---------
+ **1.6.0** | Y | Y | P | P 
+ **1.7.0** | N |  P | Y | Y 
+
+### Documentation 
 You can find some examples in the wiki.
 ## License
 
@@ -52,7 +61,7 @@ geoserver-manager is released under a permissinve [MIT](https://opensource.org/l
 For more information see [this](https://github.com/geosolutions-it/geoserver-manager/wiki) page.
 
 ## Version 
-Current stable version is 1.7.0 ([[Changelog]]).
+Current stable version is [1.7.0](https://github.com/geosolutions-it/geoserver-manager/releases/tag/v1.7.0) ([Changelog](https://github.com/geosolutions-it/geoserver-manager/wiki/Changelog)).
 
 ## Credits
 The work on this library has been initiated by GeoSolutions. Over the years it has been funded by various organizations like UN FAO, German Space Agency (DLR) and others.
